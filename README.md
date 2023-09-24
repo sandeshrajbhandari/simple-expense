@@ -1,6 +1,10 @@
 # simple-expense
 
 a simple expense tracker built using React. This project uses useContext and useReducer hooks in React.
+## Demo Video
+https://github.com/sandeshrajbhandari/simple-expense/assets/12326258/5cc22598-dd3b-4768-b5ac-83b7e510814f
+## Screenshot
+[!simple expense demo screenshot](./screenshots/simple-expense screenshot.jpg)
 
 # React + Vite
 
