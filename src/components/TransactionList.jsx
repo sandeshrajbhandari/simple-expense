@@ -7,8 +7,8 @@ export const TransactionList = () => {
   const { transactions } = useContext(GlobalContext);
   console.log(transactions);
   return (
-    <div>
-      <h2>History</h2>
+    <div className="flex flex-col w-full border rounded shadow-xl p-2">
+      <h2 className="text-3xl mx-auto font-semibold">All transactions</h2>
       <ul className="list">
         {transactions.map((transaction) => (
           <Transaction transaction={transaction} key={transaction.id} />
